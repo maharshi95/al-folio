@@ -7,7 +7,11 @@
     {% if site.data.venues[entry.abbr] %}
     <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
     {% else %}
-    <abbr class="badge">{{entry.abbr}}</abbr>
+    <abbr class="badge" style="display:inline-block; width:100px">
+      <span style="background-color: transparent; color: var(--global-bg-color)">
+        {{entry.abbr}} {{entry.year}}
+      </span>
+    </abbr>
     {% endif %}
   {% endif %}
   </div>

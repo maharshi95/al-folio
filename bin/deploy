@@ -1,8 +1,21 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 # Run this script to deploy the app to Github Pages
 
 # Parse cmd arguments
+
+website_repo_path='~/Documents/GitHub/maharshi95.github.io'
+
+echo "bundle exec jekyll build"
+bundle exec jekyll build
+
+echo "cp -r _site/* $website_repo_path"
+cp -r _site/* $website_repo_path
+
+echo "Exiting.."
+exit 0;
+
+echo "Something not right!"
 
 SRC_BRANCH="master"
 DEPLOY_BRANCH="gh-pages"

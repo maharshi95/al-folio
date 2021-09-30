@@ -1,24 +1,34 @@
 ---
 layout: about
 title: about
+importance: 1
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: NLP Researcher | Engineer
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p> <a href="https://www.google.com/maps/place/Department+of+Computer+Science/@38.9895591,-76.9367517,17z/data=!4m5!3m4!1s0x89b7c6a392b5e087:0xd66fdb955664e740!8m2!3d38.9890788!4d-76.9361681">Iribe</a> 2112</p>
+    <p>8125 Paint Branch Dr</p>
+    <p>College Park, MD 20742</p>
+    <p><small><span class='emph'>mgor</span>[at]<span class='emph'>cs</span>[dot]<span class='emph'>umd</span>[dot]<span class='emph'>edu</span></small></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the pa
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a first year [Computer Science PhD](http://cs.umd.edu) student at the [University of Maryland](https://umd.edu), College Park, currently working with [Jordan Boyd-Graber](http://users.umiacs.umd.edu/~jbg/). I am boardly insterested in __Natural Language Understanding and Representation__. Particularly in <span class="emph"> Question Answering (QA), Semantic structure understanding, Model Robustness and Interpretability</span>.
+{: style="text-align: justify;" }
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Prior to UMD, I spent two years working at [Google Research](http://research.google.com) where I collaborated with several [Language Research](https://research.google/research-areas/natural-language-processing/) teams, with focus on Model Interpretation and Analysis for <span class="emph">Question Answering</span>, and <span class="emph">Semi-Structed Text Understanding</span> for QA and NLI.
+{: style="text-align: justify;" }
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In the past, I have also worked on some of the <span class="emph">Computer vision and Machine Learning</span> problems like: Human motion sequence modeling, Generative and Representation Learning and Adversarial Machine Learning.
+{: style="text-align: justify;" }
+
+I am quite excited about learning and applying Visually grounded contexts for Language Understanding tasks as well.
+{: style="text-align: justify;" }
+
+---

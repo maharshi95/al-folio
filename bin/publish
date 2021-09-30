@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+website_repo_path='/Users/maharshi/Documents/GitHub/maharshi95.github.io'
+
+echo "bundle exec jekyll build"
+bundle exec jekyll build
+
+echo "cp -r _site/* $website_repo_path"
+cp -r _site/* "$website_repo_path/"
+
+echo "Exiting.."
+exit 0;

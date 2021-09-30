@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Posts
+permalink: /posts/
 importance: 2
 description: A growing collection of your cool projects.
 nav: false

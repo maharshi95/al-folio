@@ -8,6 +8,11 @@ p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
   color: var(--global-text-color);
 }
 
+.emph { 
+  background: var(--global-bg-color); 
+  color: var(--global-theme-color); 
+}
+
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
@@ -404,7 +409,7 @@ footer.sticky-bottom {
           padding-left: 1rem;
           padding-right: 1rem;
           a {
-            color: white;
+            color: var(--global-badge-fg-color);
             &:hover {
               text-decoration: none;
             }
