@@ -3,19 +3,29 @@ layout: page
 permalink: /courses/
 title: Courses
 importance: 4
-description: The courses that I've taken or assisted in teaching.
+description: Courses that I've taken or assisted in teaching.
 nav: true
 ---
 
-#### **Fall 2021**
+### M.S. / Ph.D. — Computer Science, University of Maryland 
+**GPA: 4.0/4.0**
+##### **Spring 2022**
 
-- **[CMSC 828i: Advanded Techniques in Visual Learning and Recognition](https://www.cs.umd.edu/class/fall2021/cmsc828i/)** by [Prof. Abhinav Shrivastava](http://www.cs.umd.edu/~abhinav/)
+- **[CMSC 828L: Advanced Topics in Information processing: Deep Learning](http://www.cs.umd.edu/~djacobs/CMSC828DeepLearning/Syllabus18.htm)** by [Prof. David Jacobs](https://scholar.google.com/citations?hl=en&user=WH2KmRgAAAAJ)
 
-- **[CMSC 828j: Advanced Topics in Information Processing; Common-sense Reasoning and Natural Language Understanding](https://www.cs.umd.edu/class/fall2021/cmsc828i/)** by [Prof. Rachel Rudinger](https://rudinger.github.io/)
+- **[CMSC 764: Advanced Numerical Optimization](https://www.cs.umd.edu/~tomg/cmsc764_2022/)** by [Prof. Tom Goldstein](http://www.cs.umd.edu/~tomg/)
 
-- I am also serving as a [Teaching Assistant]() for **[CMSC 250: Discrete Structures]()**
+- [Teaching Assistant]() for **[CMSC 848Q: How and Why Artificial Intelligence Answers Questions](http://users.umiacs.umd.edu/~jbg/teaching/CMSC_848/)** by [Prof. Jordan Boyd-Graber](http://boydgraber.org). Book appointments for my office hours [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUtnMXZ1dkk4aGRLfGRlZmF1bHR8MDJlZTBiM2M1ZTZlMDRkNGI0NzRlNmM3M2MyZTYwNmY).
 
-#### **MOOCs**
+##### **Fall 2021**
+
+- **[CMSC 828I: Advanced Techniques in Visual Learning and Recognition](https://www.cs.umd.edu/class/fall2021/cmsc828i/)** by [Prof. Abhinav Shrivastava](http://www.cs.umd.edu/~abhinav/)
+
+- **[CMSC 828J: Advanced Topics in Information Processing; Common-sense Reasoning and Natural Language Understanding]()** by [Prof. Rachel Rudinger](https://rudinger.github.io/)
+
+- [Teaching Assistant]() for **[CMSC 250: Discrete Structures]()**
+
+### MOOCs
 
 - **[Five course Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/PA43XSTUFABV)** by Prof. Andrew Ng, [deeplearning.ai](https://deeplearning.ai)
 	1. Neural Networks and Deep Learning
