@@ -4,6 +4,25 @@
 @string{aps = {American Physical Society,}}
 @string{acl = {Association for Computational Linguistics,}}
 
+@inproceedings{sriramanan:gor:feizi-neurips2022,
+  abbr={NeurIPS},
+  bibtex_show={true},
+  title={Toward Efficient Robust Training against Union of L<sub>p</sub> Threat Models},
+  author={Sriramanan, Gaurang and Gor, Maharshi and Feizi, Soheil},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2022},
+  location={New Orleans, LA},
+  html={https://openreview.net/forum?id=6qdUJblMHqy},
+  abstract={  The overwhelming vulnerability of deep neural networks to carefully crafted perturbations known as adversarial attacks has led to the development of various training techniques to produce robust models.  
+  While the primary focus of existing approaches has been directed toward addressing the worst-case performance achieved under a single-threat model, it is imperative that safety-critical systems are robust with respect to multiple threat models simultaneously. 
+  Existing approaches that address worst-case performance under the union of such threat models (e.g., $\ell_{\infty}, \ell_2, \ell_1$) either utilize adversarial training methods that require multi-step attacks which are computationally expensive in practice, or rely upon fine-tuning of pre-trained models that are robust with respect to a single-threat model.
+  In this work, we show that by carefully choosing the objective function used for robust training, it is possible to achieve similar, or even improved worst-case performance over a union of threat models while utilizing only single-step attacks during the training, thereby achieving a significant reduction in computational resources necessary for training.  
+  Furthermore, prior work showed that adversarial training against the $\ell_1$ threat model is relatively difficult, to the extent that even multi-step adversarially trained models were shown to be prone to gradient-masking and catastrophic over-fitting.  
+  However, our proposed method---when applied on the $\ell_1$ threat model specifically---enables us to obtain the first $\ell_1$ robust model trained solely with single-step adversarial attacks.
+  Finally, to demonstrate the merits of our approach, we utilize a modern set of attack evaluations to better estimate the worst-case performance under the considered union of threat models.},
+  selected={true},
+}
+
 @inproceedings{eisenschlos2021mate,
   abbr={EMNLP},
   bibtex_show={true},
@@ -44,7 +63,7 @@ year = {2019},
 location={Seoul, South Korea},
 html={https://openaccess.thecvf.com/content_ICCV_2019/papers/Kundu_GAN-Tree_An_Incrementally_Learned_Hierarchical_Generative_Framework_for_Multi-Modal_Data_ICCV_2019_paper.pdf},
 abstract={Despite the remarkable success of generative adversarial networks, their performance seems less impressive for diverse training sets, requiring learning of discontinuous mapping functions. Though multi-mode prior or multi-generator models have been proposed to alleviate this problem, such approaches may fail depending on the empirically chosen initial mode components. In contrast to such bottom-up approaches, we present GAN-Tree, which follows a hierarchical divisive strategy to address such discontinuous multi-modal data. Devoid of any assumption on the number of modes, GAN-Tree utilizes a novel mode-splitting algorithm to effectively split the parent mode to semantically cohesive children modes, facilitating unsupervised clustering. Further, it also enables incremental addition of new data modes to an already trained GAN-Tree, by updating only a single branch of the tree structure. As compared to prior approaches, the proposed framework offers a higher degree of flexibility in choosing a large variety of mutually exclusive and exhaustive tree nodes called GAN-Set. Extensive experiments on synthetic and natural image datasets including ImageNet demonstrate the superiority of GAN-Tree against the prior state-of-the-art.},
-selected={true},
+selected={false},
 code={https://github.com/maharshi95/GANTree}
 }
 
@@ -68,7 +87,7 @@ abstract={Human motion prediction model has applications in various fields of co
 @inproceedings{Kundu:Gor:Uppala:Babu-WACV2019,
   abbr={WACV},
   author={Kundu, Jogendra Nath and Gor, Maharshi and Uppala, Phani Krishna and Radhakrishnan, Venkatesh Babu},
-  booktitle={2019 IEEE Winter Conference on Applications of Computer Vision (WACV)}, 
+  booktitle={IEEE Winter Conference on Applications of Computer Vision (WACV)}, 
   title={Unsupervised Feature Learning of Human Actions As Trajectories in Pose Embedding Manifold}, 
   year={2019},
   volume={},

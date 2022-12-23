@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 importance: 3
 description: Publications by years in reversed chronological order.
-years: [2021, 2019]
+years: [2022, 2021, 2019]
 nav: true
 ---
 

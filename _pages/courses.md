@@ -9,13 +9,19 @@ nav: true
 
 ### M.S. / Ph.D. — Computer Science, University of Maryland 
 **GPA: 4.0/4.0**
+##### **Fall 2022**
+
+- **[CMSC 723: Graduate Natural Language Processing](http://users.umiacs.umd.edu/~jbg/teaching/CMSC_723/)** by [Prof. Jordan Boyd-Graber](http://boydgraber.org)
+
+- **[CMSC 848C: Selected Topics in Information Processing; Human-AI Interaction](https://docs.google.com/document/d/1n2GQ5A5cZoucyFkptpr27Nje58L4M9SjA8mE0h83ucg/edit)** by [Prof. Hal Daumé III](http://users.umiacs.umd.edu/~hal/)
+
 ##### **Spring 2022**
 
 - **[CMSC 828L: Advanced Topics in Information processing: Deep Learning](http://www.cs.umd.edu/~djacobs/CMSC828DeepLearning/Syllabus18.htm)** by [Prof. David Jacobs](https://scholar.google.com/citations?hl=en&user=WH2KmRgAAAAJ)
 
 - **[CMSC 764: Advanced Numerical Optimization](https://www.cs.umd.edu/~tomg/cmsc764_2022/)** by [Prof. Tom Goldstein](http://www.cs.umd.edu/~tomg/)
 
-- [Teaching Assistant]() for **[CMSC 848Q: How and Why Artificial Intelligence Answers Questions](http://users.umiacs.umd.edu/~jbg/teaching/CMSC_848/)** by [Prof. Jordan Boyd-Graber](http://boydgraber.org). Book appointments for my office hours [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUtnMXZ1dkk4aGRLfGRlZmF1bHR8MDJlZTBiM2M1ZTZlMDRkNGI0NzRlNmM3M2MyZTYwNmY).
+- [Teaching Assistant]() for **[CMSC 848Q: How and Why Artificial Intelligence Answers Questions](http://users.umiacs.umd.edu/~jbg/teaching/CMSC_848/)** by [Prof. Jordan Boyd-Graber](http://boydgraber.org).
 
 ##### **Fall 2021**
 
