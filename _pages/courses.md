@@ -9,6 +9,17 @@ nav: true
 
 ### M.S. / Ph.D. — Computer Science, University of Maryland 
 **GPA: 4.0/4.0**
+
+##### **Fall 2023**
+
+- **[LING 848P: Topics in Computational Pragmatics](https://users.umiacs.umd.edu/~resnik/ling848_fa2023/)** by [Prof. Philip Resnik](https://users.umiacs.umd.edu/~resnik/)
+
+##### **Spring 2023**
+
+- **[CMSC 701: Computational Genomics](https://rob-p.github.io/CMSC701_S23/)** by [Prof. Rob Patro](https://www.umiacs.umd.edu/people/robpatro)
+
+- [Teaching Assistant]() for **[CMSC 828A: Fantastic Machine Learning Paradigms and where to use them]()** by [Prof. Tianyi Zhou](https://tianyizhou.github.io).
+
 ##### **Fall 2022**
 
 - **[CMSC 723: Graduate Natural Language Processing](http://users.umiacs.umd.edu/~jbg/teaching/CMSC_723/)** by [Prof. Jordan Boyd-Graber](http://boydgraber.org)

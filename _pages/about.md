@@ -20,13 +20,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the pa
 ---
 
-I am a second year [Computer Science PhD](http://cs.umd.edu) student at the [University of Maryland](https://umd.edu), College Park, currently working with [Tianyi Zhou](https://tianyizhou.github.io/) and [Jordan Boyd-Graber](http://users.umiacs.umd.edu/~jbg/). I am a member of the [Computational Linguistics and Information Processing (CLIP) Lab](https://wiki.umiacs.umd.edu/clip/index.php/Main_Page) at [UMIACS](https://www.umiacs.umd.edu/).
+I am a third year [Computer Science PhD](http://cs.umd.edu) student at the [University of Maryland](https://umd.edu), College Park, currently working with [Tianyi Zhou](https://tianyizhou.github.io/) and [Jordan Boyd-Graber](http://users.umiacs.umd.edu/~jbg/). I am a member of the [Computational Linguistics and Information Processing (CLIP) Lab](https://wiki.umiacs.umd.edu/clip/index.php/Main_Page) at [UMIACS](https://www.umiacs.umd.edu/).
 {: style="text-align: justify;" }
 
 I am broadly interested in __Natural Language Understanding__ and __Efficient learning methods;__ particularly around <span class="emph"> Question Answering (QA), Semantic structure understanding, Model Robustness and Interpretability</span>.
 {: style="text-align: justify;" }
 
-I've spent some time working at [Google Research](http://research.google.com) where I collaborated [Brain](https://research.google/teams/brain/) with several [Language Research](https://research.google/research-areas/natural-language-processing/) teams, with focus on Model Interpretation and Analysis for <span class="emph">Question Answering</span>, <span class="emph">Semi-Structured Text Understanding</span> and <span class="emph">Retrieval-augmented Language models</span> for long-context understanding.
+I've spent some time working at [Google Research](http://research.google.com) where I collaborated with [Brain](https://research.google/teams/brain/) and several [Language Research](https://research.google/research-areas/natural-language-processing/) teams, with focus on Model Interpretation and Analysis for <span class="emph">Question Answering</span>, <span class="emph">Semi-Structured Text Understanding</span> and <span class="emph">Retrieval-augmented Language models</span> for long-context understanding.
 {: style="text-align: justify;" }
 
 In the past, I have also worked on some of the <span class="emph">Computer vision and Machine Learning</span> problems like Human motion sequence modeling, Generative and Representation Learning and Adversarial Machine Learning.
