@@ -1,7 +1,7 @@
 ---
 layout: about
-title: about
-importance: 1
+title: About
+nav_order: 1
 permalink: /
 subtitle: NLP Researcher | Engineer | PhD Student at UMD CS
 

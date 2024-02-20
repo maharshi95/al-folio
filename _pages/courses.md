@@ -2,9 +2,9 @@
 layout: page
 permalink: /courses/
 title: Courses
-importance: 4
 description: Courses that I've taken or assisted in teaching.
 nav: true
+nav_order: 4
 ---
 
 ### M.S. / Ph.D. — Computer Science, University of Maryland 
