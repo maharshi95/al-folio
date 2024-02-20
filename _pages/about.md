@@ -3,12 +3,13 @@ layout: about
 title: about
 importance: 1
 permalink: /
-description: NLP Researcher | Engineer
+subtitle: NLP Researcher | Engineer | PhD Student at UMD CS
 
 profile:
   align: right
   image: prof_pic.jpg
   image_dark: profile_pic.png
+  image_circular: false # crops the image to make it circular
   address: >
     <p> <a href="https://www.google.com/maps/place/Department+of+Computer+Science/@38.9895591,-76.9367517,17z/data=!4m5!3m4!1s0x89b7c6a392b5e087:0xd66fdb955664e740!8m2!3d38.9890788!4d-76.9361681">Iribe</a> 4108</p>
     <p>8125 Paint Branch Dr</p>
@@ -16,6 +17,7 @@ profile:
     <p><small><span class='emph'>mgor</span>[at]<span class='emph'>cs</span>[dot]<span class='emph'>umd</span>[dot]<span class='emph'>edu</span></small></p>
 
 news: true  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the pa
 ---
