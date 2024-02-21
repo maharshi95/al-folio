@@ -1,6 +1,55 @@
+# Physics Journals
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
 
 "PhysRev":
   url: https://journals.aps.org/
+
+# ML/AI Conferences
+"NeurIPS":
+  url: https://nips.cc/
+
+"ICML":
+  url: https://icml.cc/
+
+"ICLR":
+  url: https://iclr.cc/"
+
+"AAAI":
+  url: https://aaai.org/Conferences/AAAI-21/
+
+"IJCAI":
+  url: https://www.ijcai.org/
+
+# NLP Conferences
+"EMNLP":
+  url: https://www.aclweb.org/anthology/events/emnlp-2020/
+
+"ACL":
+  url: https://www.aclweb.org/anthology/events/acl-2020/
+
+"NAACL":
+  url: https://www.aclweb.org/anthology/events/naacl-2021/
+
+"COLING":
+  url: https://www.aclweb.org/anthology/events/coling-2020/
+
+"CoNLL":
+  url: https://www.aclweb.org/anthology/events/conll-2020/
+
+"COLM":
+  url: https://colmweb.org/
+
+# Computer Vision Conferences
+"CVPR":
+  url: https://openaccess.thecvf.com/menu
+
+"ICCV":
+  url: https://openaccess.thecvf.com/menu
+
+"ECCV":
+  url: https://www.ecva.net/
+
+"WACV":
+  url: https://openaccess.thecvf.com/menu
