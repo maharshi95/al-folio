@@ -42,6 +42,10 @@
   - firstname: ["Hal", "H."]
     url: https://users.umiacs.umd.edu/~hal/
 
+"Daumé III":
+  - firstname: ["Hal", "H."]
+    url: https://users.umiacs.umd.edu/~hal/
+
 "Feizi":
   - firstname: ["Soheil", "S."]
     url: https://www.cs.cmu.edu/~sfeizi/

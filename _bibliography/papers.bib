@@ -7,7 +7,7 @@
 @inproceedings{gor2024caimira,
   abbr        = {EMNLP},
   bibtex_show = {true},
-  title       = {Do great minds think alike? Investigating Human-AI Complementarity in Question Answering <br> with CAIMIRA},
+  title       = {Do great minds think alike? Investigating Human-AI Complementarity in Question Answering with CAIMIRA},
   author      = {Maharshi Gor and Hal {Daum\'e III} and Tianyi Zhou and Jordan Boyd-Graber},
   booktitle   = {Empirical Methods in Natural Language Processing},
   publisher   = acl,
@@ -75,7 +75,8 @@
   month       = {Nov},
   year        = {2021},
   location    = {Punta Cana},
-  pdf        = {https://arxiv.org/pdf/2109.04312.pdf},
+  arxiv       = {2109.04312},
+  pdf         =  {https://arxiv.org/pdf/2109.04312.pdf},
   abstract    = {This work presents a sparse-attention Transformer architecture for modeling documents that contain large tables.
                  Tables are ubiquitous on the web, and are rich in information.
                  However, more than 20% of relational tables on the web have 20 or more rows (Cafarella et al., 2008), and these large tables present a challenge for current Transformer models, which are typically limited to 512 tokens.
@@ -96,7 +97,8 @@
   month       = {Nov},
   year        = {2021},
   location    = {Punta Cana},
-  pdf        = {https://arxiv.org/pdf/2104.07571.pdf},
+  arxiv       = {2104.07571},
+  pdf         = {https://arxiv.org/pdf/2104.07571.pdf},
   abstract    = {The goal of question answering (QA) is to answer any question. However, major QA datasets have skewed distributions over gender, profession, and nationality. Despite that skew, model accuracy analysis reveals little evidence that accuracy is lower for people based on gender or nationality; instead, there is more variation on professions (question topic). But QA's lack of representation could itself hide evidence of bias, necessitating QA datasets that better represent global diversity.},
   selected    = {true}
 }
@@ -111,6 +113,7 @@
   year        = {2019},
   location    = {Seoul, South Korea},
   first_author={true},
+  arxiv       = {1908.03919},
   pdf        = {https://openaccess.thecvf.com/content_ICCV_2019/papers/Kundu_GAN-Tree_An_Incrementally_Learned_Hierarchical_Generative_Framework_for_Multi-Modal_Data_ICCV_2019_paper.pdf},
   abstract    = {Despite the remarkable success of generative adversarial networks, their performance seems less impressive for diverse training sets, requiring learning of discontinuous mapping functions. Though multi-mode prior or multi-generator models have been proposed to alleviate this problem, such approaches may fail depending on the empirically chosen initial mode components. In contrast to such bottom-up approaches, we present GAN-Tree, which follows a hierarchical divisive strategy to address such discontinuous multi-modal data. Devoid of any assumption on the number of modes, GAN-Tree utilizes a novel mode-splitting algorithm to effectively split the parent mode to semantically cohesive children modes, facilitating unsupervised clustering. Further, it also enables incremental addition of new data modes to an already trained GAN-Tree, by updating only a single branch of the tree structure. As compared to prior approaches, the proposed framework offers a higher degree of flexibility in choosing a large variety of mutually exclusive and exhaustive tree nodes called GAN-Set. Extensive experiments on synthetic and natural image datasets including ImageNet demonstrate the superiority of GAN-Tree against the prior state-of-the-art.},
   selected    = {false},
@@ -131,7 +134,8 @@
   first_author={true},
   url         = {https://ojs.aaai.org/index.php/AAAI/article/view/4874},
   doi         = {10.1609/aaai.v33i01.33018553},
-  pdf        = {https://arxiv.org/pdf/1812.02591.pdf},
+  arxiv       = {1812.02591},
+  pdf         = {https://arxiv.org/pdf/1812.02591.pdf},
   code        = {https://github.com/maharshi95/Pose2Vec},
   abstract    = {Human motion prediction model has applications in various fields of computer vision. Without taking into account the inherent stochasticity in the prediction of future pose dynamics, such methods often converges to a deterministic undesired mean of multiple probable outcomes. Devoid of this, we propose a novel probabilistic generative approach called Bidirectional Human motion prediction GAN, or &lt;em&gt;BiHMP-GAN&lt;/em&gt;. To be able to generate multiple probable human-pose sequences, conditioned on a given starting sequence, we introduce a random extrinsic factor &lt;em&gt;r&lt;/em&gt;, drawn from a predefined prior distribution. Furthermore, to enforce a direct content loss on the predicted motion sequence and also to avoid mode-collapse, a novel bidirectional framework is incorporated by modifying the usual discriminator architecture. The discriminator is trained also to regress this extrinsic factor &lt;em&gt;r&lt;/em&gt;, which is used alongside with the intrinsic factor (encoded starting pose sequence) to generate a particular pose sequence. To further regularize the training, we introduce a novel recursive prediction strategy. In spite of being in a probabilistic framework, the enhanced discriminator architecture allows predictions of an intermediate part of pose sequence to be used as a conditioning for prediction of the latter part of the sequence. The bidirectional setup also provides a new direction to evaluate the prediction quality against a given test sequence. For a fair assessment of &lt;em&gt;BiHMP-GAN&lt;/em&gt;, we report performance of the generated motion sequence using (i) a critic model trained to discriminate between real and fake motion sequence, and (ii) an action classifier trained on real human motion dynamics. Outcomes of both qualitative and quantitative evaluations, on the probabilistic generations of the model, demonstrate the superiority of &lt;em&gt;BiHMP-GAN&lt;/em&gt; over previously available methods.}
 }
@@ -149,6 +153,7 @@
   first_author={true},
   doi         = {10.1109/WACV.2019.00160},
   code        = {https://github.com/maharshi95/Pose2Vec},
+  arxiv       = {1812.02592},
   pdf         = {https://arxiv.org/pdf/1812.02592},
   tldr        = {This work introduces a novel unsupervised framework for human action modeling, which separates the learning of individual pose representations from sequences of poses.
                  It employs a novel Encoder GAN (EnGAN) for continuous pose embedding and an RNN auto-encoder architecture, PoseRNN, for action modeling.
