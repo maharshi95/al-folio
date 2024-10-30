@@ -2,11 +2,11 @@
 
 website_repo_path='/Users/maharshi/Documents/GitHub/maharshi95.github.io'
 
-echo "bundle exec jekyll build"
-bundle exec jekyll build
+echo "bundle exec jekyll build --lsi"
+bundle exec jekyll build --lsi
 
 echo "cp -r _site/* $website_repo_path"
 cp -r _site/* "$website_repo_path/"
 
 echo "Exiting.."
-exit 0;
+exit 0
