@@ -41,7 +41,7 @@
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
-
+        {% assign add_asterisk = entry.first_author %}
         {% assign author_array_limit = author_array_size %}
         {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
           {% assign author_array_limit = site.max_author_limit %}
@@ -50,6 +50,20 @@
         {%- for author in entry.author_array limit: author_array_limit -%}
           {%- assign author_is_self = false -%}
           {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+          {%- assign author_full_last = author_last_name -%}
+          
+          {%- if author.suffix -%}
+            {%- assign author_suffix = author_last_name | split: " " | last -%}
+            {%- assign author_last_name = author_last_name | split: " " | first -%}
+          {%- endif -%}
+
+          <div style="display:none">
+            Debug - Last name: {{ author_last_name | inspect }}
+            Debug - Full last: {{ author_full_last | inspect }}
+            Debug - Suffix: {{ author_suffix | inspect }}
+            Debug - First name: {{ author.first | inspect }}
+          </div>
+          
           {%- if site.scholar.last_name contains author_last_name -%}
             {%- if site.scholar.first_name contains author.first -%}
               {%- assign author_is_self = true -%}
@@ -70,13 +84,12 @@
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
-            <em><b>{{author.first}} {{author.last}}</b></em>
+            <em><b>{{author.first}} {{author_full_last}}{%- if add_asterisk -%}<sup>*</sup>{%- endif -%}</b></em>
+            {%- assign add_asterisk = false -%}
           {%- else -%}
-            {%- if coauthor_url -%}
-              <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
-            {%- else -%}
-              {{author.first}} {{author.last}}
-            {%- endif -%}
+            {%- if coauthor_url -%}<a href="{{coauthor_url}}">{%- endif -%}
+              {{author.first}} {{author_full_last}}{%- if add_asterisk -%}<sup>*</sup>{%- endif -%}
+            {%- if coauthor_url -%}</a>{%- endif -%}
           {%- endif -%}
         {%- endfor -%}
         {%- assign more_authors = author_array_size | minus: author_array_limit -%}
