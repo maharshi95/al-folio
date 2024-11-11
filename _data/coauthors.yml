@@ -1,10 +1,4 @@
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
-
+# IISC faculties
 "Babu": 
   - firstname: ["Venkatesh", "R. Venkatesh", "Radhakrishnan, Venkatesh"]
     url: http://cds.iisc.ac.in/faculty/venky/
@@ -17,6 +11,7 @@
   - firstname: ["JN", "J. N.", "Jogendra Nath", ]
     url: https://scholar.google.co.in/citations?user=Xa44GDEAAAAJ
 
+# Google Collaborators
 "Eisenschlos":
   - firstname: ["Julian Martin"]
     url: https://research.google/people/106772/
@@ -29,10 +24,28 @@
   - firstname: ["Kellie"]
     url: https://research.google/people/KellieWebster/
 
+"Cohen":
+  - firstname: ["William Weston",]
+    url: http://www.cs.cmu.edu/~wcohen/
+
+# UMD faculties
+
+"Zhou":
+  - firstname: ["Tianyi", "T."]
+    url: https://tianyizhou.github.io/
+
 "Boyd-Graber":
   - firstname: ["Jordan", "J."]
     url: http://users.umiacs.umd.edu/~jbg/
 
-"Cohen":
-  - firstname: ["William Weston",]
-    url: http://www.cs.cmu.edu/~wcohen/
+"Daumé":
+  - firstname: ["Hal", "H."]
+    url: https://users.umiacs.umd.edu/~hal/
+
+"Daumé III":
+  - firstname: ["Hal", "H."]
+    url: https://users.umiacs.umd.edu/~hal/
+
+"Feizi":
+  - firstname: ["Soheil", "S."]
+    url: https://www.cs.cmu.edu/~sfeizi/

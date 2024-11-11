@@ -803,6 +803,18 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+
+      div.video.hidden {
+        border: 0px solid var(--global-bg-color);
+        padding: 0;
+        margin: 0;
+      }
+
+      div.video.hidden.open {
+        // border-color: var(--global-text-color);
+        padding: 1rem;
+        margin: 1rem 0;
+      }
     }
   }
 }

@@ -4,15 +4,54 @@
 @string{aps = {American Physical Society,}}
 @string{acl = {Association for Computational Linguistics,}}
 
+@article{sung2024advscore,
+  abbr        = {Preprint},
+  bibtex_show = {true},
+  title       = {Is your benchmark truly adversarial? AdvScore: Evaluating Human-Grounded Adversarialness}, 
+  author      = {Yoo Yeon Sung and Maharshi Gor and Eve Fleisig and Ishani Mondal and Jordan Boyd-Graber},
+  year        = {2024},
+  arxiv       = {2406.16342},
+  pdf         = {https://arxiv.org/pdf/2406.16342.pdf},
+  abstract    = {Adversarial datasets should ensure AI robustness that matches human performance. However, as models evolve, datasets can become obsolete. Thus, adversarial datasets should be periodically updated based on their degradation in adversarialness. Given the lack of a standardized metric for measuring adversarialness, we propose AdvScore, a human-grounded evaluation metric. AdvScore assesses a dataset's true adversarialness by capturing models' and humans' varying abilities, while also identifying poor examples. AdvScore then motivates a new dataset creation pipeline for realistic and high-quality adversarial samples, enabling us to collect an adversarial question answering (QA) dataset, AdvQA. We apply AdvScore using 9,347 human responses and ten language model predictions to track the models' improvement over five years (from 2020 to 2024). AdvScore assesses whether adversarial datasets remain suitable for model evaluation, measures model improvements, and provides guidance for better alignment with human capabilities.},
+  url         = {https://arxiv.org/abs/2406.16342}, 
+  selected    = {true}
+}
+
+@inproceedings{gor2024caimira,
+  abbr        = {EMNLP},
+  bibtex_show = {true},
+  title       = {Do great minds think alike? Investigating Human-AI Complementarity in Question Answering with CAIMIRA},
+  author      = {Maharshi Gor and Hal {Daum\'e III} and Tianyi Zhou and Jordan Boyd-Graber},
+  booktitle   = {Empirical Methods in Natural Language Processing},
+  publisher   = acl,
+  year        = {2024},
+  location    = {Miami, FL},
+  arxiv       = {2410.06524},
+  pdf        = {https://arxiv.org/pdf/2410.06524.pdf},
+  video       = {https://www.youtube.com/watch?v=joeNRMM5abI},
+  abstract    = {Recent advancements of large language models (LLMs) have led to claims of AI surpassing humans in natural language processing (NLP) 
+                 tasks such as textual understanding and reasoning. This work investigates these assertions by introducing CAIMIRA,
+                 a novel framework rooted in item response theory (IRT) that enables quantitative assessment and comparison of problem-solving abilities
+                 of question-answering (QA) agents: humans and AI systems. Through analysis of over 300,000 responses from ~70 AI systems and 155 humans
+                 across thousands of quiz questions, CAIMIRA uncovers distinct proficiency patterns in knowledge domains and reasoning skills.
+                 Humans outperform AI systems in knowledge-grounded abductive and conceptual reasoning, while state-of-the-art LLMs like GPT-4 and
+                 LLaMA-3-70B show superior performance on targeted information retrieval and fact-based reasoning, particularly when information
+                 gaps are well-defined and addressable through pattern matching or data retrieval. These findings highlight the need for future QA tasks
+                 to focus on questions that challenge not only higher-order reasoning and scientific thinking, but also demand nuanced linguistic
+                 interpretation and cross-contextual knowledge application, helping advance AI developments that better emulate or complement
+                 human cognitive abilities in real-world problem-solving.},
+  selected    = {true}
+}
+
 @inproceedings{sriramanan:gor:feizi-neurips2022,
   abbr        = {NeurIPS},
   bibtex_show = {true},
-  title       = {Toward Efficient Robust Training against Union of L<sub>p</sub> Threat Models},
+  title       = {Toward Efficient Robust Training against Union of \(l_p\) Threat Models},
   author      = {Sriramanan, Gaurang and Gor, Maharshi and Feizi, Soheil},
   booktitle   = {Advances in Neural Information Processing Systems},
   year        = {2022},
   location    = {New Orleans, LA},
-  html        = {https://openreview.net/forum?id=6qdUJblMHqy},
+  pdf         = {https://proceedings.neurips.cc/paper_files/paper/2022/file/a627b9468c319c13a70b7c2fb8df65a3-Paper-Conference.pdf},
   abstract    = {The overwhelming vulnerability of deep neural networks to carefully crafted perturbations known as adversarial attacks has led to the development of various training techniques to produce robust models.  
                  While the primary focus of existing approaches has been directed toward addressing the worst-case performance achieved under a single-threat model, it is imperative that safety-critical systems are robust with respect to multiple threat models simultaneously. 
                  Existing approaches that address worst-case performance under the union of such threat models (e.g., \(\ell_{\infty}), \ell_2, \ell_1$) either utilize adversarial training methods that require multi-step attacks which are computationally expensive in practice, or rely upon fine-tuning of pre-trained models that are robust with respect to a single-threat model.
@@ -23,6 +62,23 @@
   selected    = {true}
 }
 
+@article{zhang2022metadip,
+  abbr        = {Preprint},
+  bibtex_show = {true},
+  title       = {MetaDIP: Accelerating Deep Image Prior with Meta Learning},
+  author      = {Kevin Zhang and Mingyang Xie and Maharshi Gor and Yi-Ting Chen and Yvonne Zhou and Christopher A. Metzler},
+  journal     = {arXiv preprint arXiv: 2209.08452},
+  year        = {2022},
+  arxiv       = {2209.08452},
+  pdf         = {https://arxiv.org/pdf/2209.08452.pdf},
+  abstract    = {Deep image prior (DIP) is a recently proposed technique for solving imaging inverse problems by fitting the reconstructed images to the output of an untrained convolutional neural network.
+                 Unlike pretrained feedforward neural networks, the same DIP can generalize to arbitrary inverse problems, from denoising to phase retrieval, while offering competitive performance at each task.
+                 The central disadvantage of DIP is that, while feedforward neural networks can reconstruct an image in a single pass, DIP must gradually update its weights over hundreds to thousands of iterations, at a significant computational cost. 
+                 In this work we use meta-learning to massively accelerate DIP-based reconstructions. 
+                 By learning a proper initialization for the DIP weights, we demonstrate a 10x improvement in runtimes across a range of inverse imaging tasks.
+                 Moreover, we demonstrate that a network trained to quickly reconstruct faces also generalizes to reconstructing natural image patches.}
+}
+
 @inproceedings{eisenschlos2021mate,
   abbr        = {EMNLP},
   bibtex_show = {true},
@@ -30,9 +86,11 @@
   author      = {Eisenschlos, Julian Martin and Gor, Maharshi and M{\"u}ller, Thomas and Cohen, William Weston},
   booktitle   = {Empirical Methods in Natural Language Processing},
   publisher   = acl,
+  month       = {Nov},
   year        = {2021},
   location    = {Punta Cana},
-  html        = {https://arxiv.org/pdf/2109.04312.pdf},
+  arxiv       = {2109.04312},
+  pdf         =  {https://arxiv.org/pdf/2109.04312.pdf},
   abstract    = {This work presents a sparse-attention Transformer architecture for modeling documents that contain large tables.
                  Tables are ubiquitous on the web, and are rich in information.
                  However, more than 20% of relational tables on the web have 20 or more rows (Cafarella et al., 2008), and these large tables present a challenge for current Transformer models, which are typically limited to 512 tokens.
@@ -53,7 +111,8 @@
   month       = {Nov},
   year        = {2021},
   location    = {Punta Cana},
-  html        = {https://arxiv.org/pdf/2104.07571.pdf},
+  arxiv       = {2104.07571},
+  pdf         = {https://arxiv.org/pdf/2104.07571.pdf},
   abstract    = {The goal of question answering (QA) is to answer any question. However, major QA datasets have skewed distributions over gender, profession, and nationality. Despite that skew, model accuracy analysis reveals little evidence that accuracy is lower for people based on gender or nationality; instead, there is more variation on professions (question topic). But QA's lack of representation could itself hide evidence of bias, necessitating QA datasets that better represent global diversity.},
   selected    = {true}
 }
@@ -61,13 +120,15 @@
 @inproceedings{Kundu:Gor:Agrawal:Babu-ICCV2019,
   abbr        = {ICCV},
   bibtex_show = {true},
-  author      = {Kundu, Jogendra Nath and Gor, Maharshi and Agrawal, Dakshit and Babu, R. Venkatesh},
+  author      = {Jogendra Nath Kundu and Maharshi Gor and Dakshit Agrawal and R. Venkatesh Babu},
   title       = {GAN-Tree: An Incrementally Learned Hierarchical Generative Framework for Multi-Modal Data Distributions},
   booktitle   = {Proceedings of the IEEE/CVF International Conference on Computer Vision},
   month       = {October},
   year        = {2019},
   location    = {Seoul, South Korea},
-  html        = {https://openaccess.thecvf.com/content_ICCV_2019/papers/Kundu_GAN-Tree_An_Incrementally_Learned_Hierarchical_Generative_Framework_for_Multi-Modal_Data_ICCV_2019_paper.pdf},
+  first_author={true},
+  arxiv       = {1908.03919},
+  pdf        = {https://openaccess.thecvf.com/content_ICCV_2019/papers/Kundu_GAN-Tree_An_Incrementally_Learned_Hierarchical_Generative_Framework_for_Multi-Modal_Data_ICCV_2019_paper.pdf},
   abstract    = {Despite the remarkable success of generative adversarial networks, their performance seems less impressive for diverse training sets, requiring learning of discontinuous mapping functions. Though multi-mode prior or multi-generator models have been proposed to alleviate this problem, such approaches may fail depending on the empirically chosen initial mode components. In contrast to such bottom-up approaches, we present GAN-Tree, which follows a hierarchical divisive strategy to address such discontinuous multi-modal data. Devoid of any assumption on the number of modes, GAN-Tree utilizes a novel mode-splitting algorithm to effectively split the parent mode to semantically cohesive children modes, facilitating unsupervised clustering. Further, it also enables incremental addition of new data modes to an already trained GAN-Tree, by updating only a single branch of the tree structure. As compared to prior approaches, the proposed framework offers a higher degree of flexibility in choosing a large variety of mutually exclusive and exhaustive tree nodes called GAN-Set. Extensive experiments on synthetic and natural image datasets including ImageNet demonstrate the superiority of GAN-Tree against the prior state-of-the-art.},
   selected    = {false},
   code        = {https://github.com/maharshi95/GANTree}
@@ -84,9 +145,11 @@
   volume      = {33},
   number      = {01},
   pages       = {8553--8560},
+  first_author={true},
   url         = {https://ojs.aaai.org/index.php/AAAI/article/view/4874},
   doi         = {10.1609/aaai.v33i01.33018553},
-  html        = {https://arxiv.org/pdf/1812.02591.pdf},
+  arxiv       = {1812.02591},
+  pdf         = {https://arxiv.org/pdf/1812.02591.pdf},
   code        = {https://github.com/maharshi95/Pose2Vec},
   abstract    = {Human motion prediction model has applications in various fields of computer vision. Without taking into account the inherent stochasticity in the prediction of future pose dynamics, such methods often converges to a deterministic undesired mean of multiple probable outcomes. Devoid of this, we propose a novel probabilistic generative approach called Bidirectional Human motion prediction GAN, or &lt;em&gt;BiHMP-GAN&lt;/em&gt;. To be able to generate multiple probable human-pose sequences, conditioned on a given starting sequence, we introduce a random extrinsic factor &lt;em&gt;r&lt;/em&gt;, drawn from a predefined prior distribution. Furthermore, to enforce a direct content loss on the predicted motion sequence and also to avoid mode-collapse, a novel bidirectional framework is incorporated by modifying the usual discriminator architecture. The discriminator is trained also to regress this extrinsic factor &lt;em&gt;r&lt;/em&gt;, which is used alongside with the intrinsic factor (encoded starting pose sequence) to generate a particular pose sequence. To further regularize the training, we introduce a novel recursive prediction strategy. In spite of being in a probabilistic framework, the enhanced discriminator architecture allows predictions of an intermediate part of pose sequence to be used as a conditioning for prediction of the latter part of the sequence. The bidirectional setup also provides a new direction to evaluate the prediction quality against a given test sequence. For a fair assessment of &lt;em&gt;BiHMP-GAN&lt;/em&gt;, we report performance of the generated motion sequence using (i) a critic model trained to discriminate between real and fake motion sequence, and (ii) an action classifier trained on real human motion dynamics. Outcomes of both qualitative and quantitative evaluations, on the probabilistic generations of the model, demonstrate the superiority of &lt;em&gt;BiHMP-GAN&lt;/em&gt; over previously available methods.}
 }
@@ -94,16 +157,18 @@
 @inproceedings{Kundu:Gor:Uppala:Babu-WACV2019,
   abbr        = {WACV},
   bibtex_show = {true},
-  author      = {Kundu, Jogendra Nath and Gor, Maharshi and Uppala, Phani Krishna and Radhakrishnan, Venkatesh Babu},
+  author      = {Kundu, Jogendra Nath and Gor, Maharshi and Uppala, Phani Krishna and Babu, R. Venkatesh},
   booktitle   = {IEEE Winter Conference on Applications of Computer Vision (WACV)},
   title       = {Unsupervised Feature Learning of Human Actions As Trajectories in Pose Embedding Manifold},
   year        = {2019},
   volume      = {},
   number      = {},
   pages       = {1459-1467},
+  first_author={true},
   doi         = {10.1109/WACV.2019.00160},
   code        = {https://github.com/maharshi95/Pose2Vec},
-  html        = {https://arxiv.org/pdf/1812.02592.pdf`},
+  arxiv       = {1812.02592},
+  pdf         = {https://arxiv.org/pdf/1812.02592},
   tldr        = {This work introduces a novel unsupervised framework for human action modeling, which separates the learning of individual pose representations from sequences of poses.
                  It employs a novel Encoder GAN (EnGAN) for continuous pose embedding and an RNN auto-encoder architecture, PoseRNN, for action modeling.
                  It demonstrates superior transferability in action recognition tasks and provides qualitative insights through skeleton pose reconstructions and visualizations in the pose-embedding space.},

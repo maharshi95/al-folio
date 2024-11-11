@@ -4,7 +4,7 @@
 
 # Parse cmd arguments
 
-website_repo_path='~/Documents/GitHub/maharshi95.github.io'
+website_repo_path="$HOME/GitHub/maharshi95.github.io/"
 
 echo "bundle exec jekyll build"
 bundle exec jekyll build

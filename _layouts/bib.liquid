@@ -21,13 +21,17 @@
               alt=entry.preview -%}
             {%- endif -%}
           {%- elsif entry.abbr -%}
-            {%- assign venue_style = var(--global-bg-color) | prepend: 'style="background-color:' | append: '"' -%}
+            {%- assign venue_style = var(--global-bg-color) | prepend: 'style="background-color:' | append: '; min-width: 120px; display: inline-block; text-align: center;"' -%}
             {%- if site.data.venues[entry.abbr] and site.data.venues[entry.abbr].color != blank -%}
-              {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
+              {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '; min-width: 120px; display: inline-block; text-align: center;"' -%}
             {%- endif -%}
-            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %} width="100px">
+            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}>
               <a href="{{site.data.venues[entry.abbr].url}}">
-                {{entry.abbr}} {{entry.year}}
+                {%- if entry.abbr == "Preprint" -%}
+                  {{entry.abbr}}
+                {%- else -%}
+                  {{entry.abbr}} {{entry.year}}
+                {%- endif -%}
               </a>
             </abbr>
           {%- endif -%}
@@ -41,7 +45,7 @@
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
-
+        {% assign add_asterisk = entry.first_author %}
         {% assign author_array_limit = author_array_size %}
         {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
           {% assign author_array_limit = site.max_author_limit %}
@@ -50,6 +54,20 @@
         {%- for author in entry.author_array limit: author_array_limit -%}
           {%- assign author_is_self = false -%}
           {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+          {%- assign author_full_last = author_last_name -%}
+          
+          {%- if author.suffix -%}
+            {%- assign author_suffix = author_last_name | split: " " | last -%}
+            {%- assign author_last_name = author_last_name | split: " " | first -%}
+          {%- endif -%}
+
+          <div style="display:none">
+            Debug - Last name: {{ author_last_name | inspect }}
+            Debug - Full last: {{ author_full_last | inspect }}
+            Debug - Suffix: {{ author_suffix | inspect }}
+            Debug - First name: {{ author.first | inspect }}
+          </div>
+          
           {%- if site.scholar.last_name contains author_last_name -%}
             {%- if site.scholar.first_name contains author.first -%}
               {%- assign author_is_self = true -%}
@@ -70,13 +88,12 @@
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
-            <em><b>{{author.first}} {{author.last}}</b></em>
+            <em><b>{{author.first}} {{author_full_last}}{%- if add_asterisk -%}<sup>*</sup>{%- endif -%}</b></em>
+            {%- assign add_asterisk = false -%}
           {%- else -%}
-            {%- if coauthor_url -%}
-              <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
-            {%- else -%}
-              {{author.first}} {{author.last}}
-            {%- endif -%}
+            {%- if coauthor_url -%}<a href="{{coauthor_url}}">{%- endif -%}
+              {{author.first}} {{author_full_last}}{%- if add_asterisk -%}<sup>*</sup>{%- endif -%}
+            {%- if coauthor_url -%}</a>{%- endif -%}
           {%- endif -%}
         {%- endfor -%}
         {%- assign more_authors = author_array_size | minus: author_array_limit -%}
@@ -172,7 +189,7 @@
             {%- endif %}
           {%- endif %}
           {%- if entry.video %}
-            <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
+            <a class="video btn btn-sm z-depth-0" role="button">Video</a>
           {%- endif %}
           {%- if entry.blog %}
             <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
@@ -249,10 +266,16 @@
 
           {% if entry.video -%}
           <!-- Hidden video block -->
-          <div class="abstract hidden">
-            <div style="text-align: center;">{% include video.html path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
+          <div class="video hidden">
+              {% assign video_url = entry.video %}
+              {% if video_url contains "youtube.com/watch?v=" %}
+                {% assign video_id = video_url | split: "=" | last %}
+                {% assign video_url = "https://www.youtube.com/embed/" | append: video_id %}
+              {% endif %}
+              <iframe width="560" height="315" src="{{ video_url }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           {%- endif -%}
+
 
         </div>
       </div>
