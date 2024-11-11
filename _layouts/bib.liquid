@@ -21,13 +21,17 @@
               alt=entry.preview -%}
             {%- endif -%}
           {%- elsif entry.abbr -%}
-            {%- assign venue_style = var(--global-bg-color) | prepend: 'style="background-color:' | append: '"' -%}
+            {%- assign venue_style = var(--global-bg-color) | prepend: 'style="background-color:' | append: '; min-width: 120px; display: inline-block; text-align: center;"' -%}
             {%- if site.data.venues[entry.abbr] and site.data.venues[entry.abbr].color != blank -%}
-              {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
+              {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '; min-width: 120px; display: inline-block; text-align: center;"' -%}
             {%- endif -%}
-            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %} width="100px">
+            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}>
               <a href="{{site.data.venues[entry.abbr].url}}">
-                {{entry.abbr}} {{entry.year}}
+                {%- if entry.abbr == "Preprint" -%}
+                  {{entry.abbr}}
+                {%- else -%}
+                  {{entry.abbr}} {{entry.year}}
+                {%- endif -%}
               </a>
             </abbr>
           {%- endif -%}
@@ -185,7 +189,7 @@
             {%- endif %}
           {%- endif %}
           {%- if entry.video %}
-            <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
+            <a class="video btn btn-sm z-depth-0" role="button">Video</a>
           {%- endif %}
           {%- if entry.blog %}
             <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
@@ -262,10 +266,16 @@
 
           {% if entry.video -%}
           <!-- Hidden video block -->
-          <div class="abstract hidden">
-            <div style="text-align: center;">{% include video.html path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
+          <div class="video hidden">
+              {% assign video_url = entry.video %}
+              {% if video_url contains "youtube.com/watch?v=" %}
+                {% assign video_id = video_url | split: "=" | last %}
+                {% assign video_url = "https://www.youtube.com/embed/" | append: video_id %}
+              {% endif %}
+              <iframe width="560" height="315" src="{{ video_url }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           {%- endif -%}
+
 
         </div>
       </div>
