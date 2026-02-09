@@ -9,9 +9,6 @@ featured: false
 toc:
   sidebar: left
 giscus_comments: false
-mermaid:
-  enabled: true
-  zoomable: true
 ---
 
 _And What You're Actually Evaluating When That Happens_
@@ -29,12 +26,9 @@ And almost everyone has, at some point, been told: _"They apologized—what more
 
 That question turns out to be doing a lot of hidden work.
 
----
-
-> ##### **TL;DR**
->
 > _When an apology feels empty, it's usually because it answered a different question than the one you were asking._
-> {: .block-tip }
+
+_(**A note on scope:** this essay is about personal relationships, primarily in Western cultural contexts. Apologies work differently in professional, institutional, and cross-cultural settings—that's a different essay, and probably a longer one.)_
 
 ---
 
@@ -70,8 +64,8 @@ But **one gives you more to work with.**
 
 > ##### **TL;DR**
 >
-> _You're not grading apologies on politeness. You're using them to predict what happens next._
-> {: .block-tip }
+> You're not grading apologies on politeness. You're using them to predict what happens next.
+{: .block-tip }
 
 ---
 
@@ -105,15 +99,9 @@ Both models are coherent.
 Both are common.  
 Both use the same word: _sorry_.
 
-This is… **inconvenient.** (Or catastrophic, depending on your anxiety levels.)
+This is… **inconvenient.** (Or catastrophic, depending on your anxiety levels. It's essentially a terms-of-service disagreement where neither party read the terms.)
 
-To see why, consider what an apology is technically supposed to do. Most frameworks break it into four components:
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/apology-components.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+To see why, consider what an apology is technically supposed to do. Research identifies four key components that effective apologies typically address [[1]](#ref1):
 
 | Component                 | What It Says                                | Signal Apology | Process Apology |
 | :------------------------ | :------------------------------------------ | :------------: | :-------------: |
@@ -124,7 +112,7 @@ To see why, consider what an apology is technically supposed to do. Most framewo
 
 <p></p>
 
-Signal apologies tend to hit (1) and (2)—enough to mark the transaction complete. (The relational equivalent of marking an email as 'read'.) Process apologies are expected to deliver all four, with (3) and (4) doing the heavy lifting.
+Signal apologies tend to hit (1) and (2)—enough to mark the transaction complete. (The relational equivalent of marking an email as 'read'.) Process apologies are expected to deliver all four, with (3) and (4) doing the heavy lifting. Research shows that the depth of emotional expression and genuine commitment to change differentiates truly reparative apologies from merely transactional ones [[2]](#ref2).
 
 Think of it like legal settlements. They don't prove moral enlightenment; they stop the bleeding. Signal apologies work the same way. That's not a bug—it's a coordination feature. But it optimizes for social stability, not relational depth.
 
@@ -132,8 +120,8 @@ Think of it like legal settlements. They don't prove moral enlightenment; they s
 
 > ##### **TL;DR**
 >
-> _People often give the apology they believe is appropriate, not the one the other person is evaluating._
-> {: .block-tip }
+> People often give the apology they believe is appropriate, not the one the other person is evaluating.
+{: .block-tip }
 
 ---
 
@@ -174,15 +162,6 @@ Some people experience process-level repair not as care, but as an emotional aud
 That exhaustion isn't avoidance.  
 It's its own kind of **hurt.**
 
----
-
-> ##### **TL;DR**
->
-> _One apology is a data point. A pattern is a signal._
-> {: .block-tip }
-
----
-
 ## Why Closeness Makes This Harder, Not Easier
 
 There's a common assumption that closer relationships naturally default to deeper apologies.
@@ -211,7 +190,11 @@ That doesn't mean they're right. It means their optimization function isn't brok
 
 Back to Jamie.
 
-Jamie's consistent, quick apologies might mean: _I care and want this resolved so we can move forward._ Or they might mean: _This pattern works well enough—why change it?_
+Jamie's consistent, quick apologies might mean:
+_I care and want this resolved so we can move forward._
+
+Or they might mean:
+_This pattern works well enough—why change it?_
 
 You can't tell from one instance.
 
@@ -223,8 +206,8 @@ A rough heuristic: one data point—suspend judgment. Two aligned data points—
 
 > ##### **TL;DR**
 >
-> _Closeness doesn't guarantee depth—it just makes mismatches more consequential._
-> {: .block-tip }
+> One apology is a data point. A pattern is a signal.
+{: .block-tip }
 
 ---
 
@@ -237,14 +220,19 @@ Up to now, this sounds pretty charitable. That's intentional—but incomplete. T
 > ##### WARNING
 >
 > Not all shallow apologies are preference-driven or model-mismatched. Some are **strategic**.
-> {: .block-warning }
+{: .block-warning }
 
 That doesn't mean malicious.
-It means responsive to incentives.
+
+It means responsive to incentive structure of the interaction rather than reflective of actual understanding or care.
+
+This aligns with research showing apologies function as costly signals that must be credible to restore trust [[7]](#ref7).
 
 If shallow apologies reliably reset the situation—end the conversation, restore access, avoid consequences—then shallow apologies are _efficient_. Over time, repeated signal-only apologies aren't confusion.
 
 **They're data.**
+
+Jamie's quick apologies always seem to arrive right before you've decided whether to bring it up. Coincidence? Maybe. But if a pattern consistently preempts the conversation you need to have, at some point you're not observing remorse. You're observing a well-timed reset button.
 
 Ignoring this leads to overly generous interpretations that don't match reality.
 
@@ -281,7 +269,7 @@ The failure mode isn't "they won't do the work."
 
 Sometimes it's "the work exceeds the available supply of work."
 
-(This is also why some people seem to have infinite patience for repair in new relationships and none in long ones. The account got overdrawn. Interest compounded.)
+(This is also why some people seem to have infinite patience for repair in new relationships and none in long ones. The emotional account got overdrawn. Interest compounded. The bank is now sending letters.)
 
 You don't have to diagnose which is which immediately. You do have to notice which one you keep _assuming_.
 
@@ -300,33 +288,25 @@ If signal apologies can be strategic, process apologies can be compulsive.
 Both failure modes exist.
 Most advice only names one.
 
+Jamie, for what it's worth, probably falls somewhere in the middle of this. Most people do. The uncomfortable part isn't diagnosing which one Jamie is—it's admitting you might not want to know.
+
 ### 3. Power Changes the Math
 
 > ##### DANGER
 >
-> All of this becomes more complicated when **risks aren't equal**.
-> {: .block-danger }
+> All of this becomes more complicated when **risks aren't equal** [[8]](#ref8). Power imbalances fundamentally change what apologies are safe to demand and what communication patterns emerge.
+{: .block-danger }
 
 Consider: an employee raising a concern with a manager. A partner who's more emotionally invested than the other. A friend who needs the relationship more.
 
 In unequal dynamics, signal apologies often function as containment tools—not maliciously, but structurally. The person with less power may not be able to safely push for clarity, even when they need it.
 
-The framework still applies. But inference happens under unequal risk, and "just communicate better" advice tends to collapse here.
+The framework still applies. But inference happens under unequal risk, and "just communicate better" advice tends to collapse here. ("Just communicate better" is the "have you tried turning it off and on again" of relationship advice. Technically correct. Practically useless when the power button is on someone else's desk.)
 
-Jamie, it turns out, sets the emotional pace in most of your interactions.
-(You've probably noticed this already. It's why you're reading this article.)
-
-You're often the one adapting.
+Jamie, it turns out, sets the emotional pace in most of your interactions. You adjust your timing to theirs. You pre-edit your concerns to fit their tolerance window. You've gotten so good at translating yourself into Jamie-compatible formats that you sometimes forget what the original file sounded like.
 
 That doesn't mean they don't care.
 It does mean the cost of pressing for more falls disproportionately on you.
-
----
-
-> ##### **TL;DR**
->
-> _Strategy, capacity, and power all shape what apologies mean—and what's safe to ask for._
-> {: .block-tip }
 
 ---
 
@@ -356,18 +336,13 @@ Once you see that, a few things shift:
 - The question changes from "Did they mean it?" to "What does the pattern suggest?"
 - Your unease might be tracking something real—a growing sense that you're not playing the same game
 
-This doesn't mean turning every apology into an audit. Interpretation itself has a cost. There's a failure mode where you never let anything settle, treating every word as evidence to be weighed. That's not insight—it's anxiety with spreadsheets. (I have personally filed these spreadsheets. They are not helpful.)
+This doesn't mean turning every apology into an audit. Interpretation itself has a cost. There's a failure mode where you never let anything settle, treating every word as evidence to be weighed. That's not insight—it's anxiety with spreadsheets.
+
+(I have personally filed these spreadsheets. They are not helpful.)
 
 The goal isn't maximum analysis.
 
 It's **accurate inference, over time.**
-
----
-
-> ##### **TL;DR**
->
-> _Apologies are forecasts, not guarantees. Treat them accordingly._
-> {: .block-tip }
 
 ---
 
@@ -379,21 +354,14 @@ If you've been nodding along thinking "this explains that one person," congratul
 
 (Don't worry. We're not turning this into astrology. Unless you're a Gemini. Just kidding. Brief detour, then back to earth.)
 
-People don't enter conflicts neutrally. They bring priors—not just about this argument, but about what conflict _means_.
+People don't enter conflicts neutrally. They bring priors—not just about this argument, but about what conflict _means_. Attachment theory [[3]](#ref3) tells us that early relationship experiences create lasting (but not permanent) patterns in how we approach closeness, conflict, and repair [[4]](#ref4), [[5]](#ref5).
 
-Some people grew up learning: _closeness is fragile. If I don't get confirmation that we're okay, we might not be okay. Ambiguity is dangerous._
-
-Others learned: _conflict is engulfment. The longer this goes, the more I lose myself. Distance is safety._
-
-These aren't conscious beliefs. They're the background operating system that processes apologies before the words even land.
-
-So the same apology—same words, same tone, same timing—can feel:
-
-- Like abandonment to one person ("They didn't go deep enough; do they even care?")
-- Like a reasonable close to another ("I acknowledged it; why are we still here?")
+These patterns are the background operating system that processes apologies before the words even land. So the same apology—same words, same tone, same timing—can feel like abandonment to one person ("They didn't go deep enough; do they even care?") and like a reasonable close to another ("I acknowledged it; why are we still here?").
 
 Neither is imagining things.
 They're just running different firmware.
+
+(Importantly: firmware can be updated. Earned secure attachment is well-documented [[5]](#ref5)—these patterns are stubborn defaults, not life sentences. But the update cycle is measured in years and good therapy, not in one conversation.)
 
 This is annoying, because it means the question "Was that apology good enough?" doesn't have a context-free answer. It depends on what each person's nervous system is scanning for.
 
@@ -418,6 +386,8 @@ The practical upshot: if you keep having the same fight about apologies, you mig
 
 That's harder to fix.  
 Also **more useful to know.**
+
+> _Closure for one person can be erasure for another. The trick is learning which one you're being offered—and deciding whether it's enough._
 
 ---
 
@@ -446,7 +416,7 @@ In relationships, they're called _resentment_ and _loneliness_.
 <p></p>
 
 Neither mistake is irrational.
-They just optimize for different regrets.
+They just optimize for different regrets. Research on implicit theories of personality shows that people who believe personalities can change are more likely to interpret apologies as meaningful signals of genuine transformation [[10]](#ref10).
 
 The question worth asking isn't _"Who's right about the apology?"_
 
@@ -462,10 +432,10 @@ But it gives you a better question—one that's actually about your situation, n
 
 > ##### **TL;DR**
 >
-> _You're not choosing between trust and boundaries. You're choosing which mistake you can live with._
-> {: .block-tip }
+> You're not choosing between trust and boundaries. You're choosing which mistake you can live with.
+{: .block-tip }
 
-{% details **For the probability nerds: the Bayesian frame** %}
+{% details **For the probability nerds: the part where I pretend relationships are tractable** %}
 
 ### The Core Question
 
@@ -509,6 +479,20 @@ A likelihood ratio of 1 means: _this evidence doesn't move your beliefs at all._
 | Behavior change weeks later |       ~10+       | Strong        |
 | Unprompted follow-up        |      ~5-10       | Strong        |
 
+_(These numbers are vibes-calibrated, not empirically measured. If you're looking for a peer-reviewed likelihood ratio table for apology sincerity, I regret to inform you that academia has let us down.)_
+
+**A Worked Example: The Jamie Update**
+
+Let's say your prior on Jamie is generous: 60% belief they understand ($$P(U) = 0.6$$). Jamie's generally thoughtful, after all.
+
+Jamie gives a formulaic sorry after the dinner incident. $$\text{LR} \approx 1.0$$. Posterior: still 60%. The apology was perfectly nice and perfectly uninformative.
+
+A month later, similar friction, same formulaic sorry. $$\text{LR} \approx 0.8$$ this time—slight evidence against understanding, because now it's a pattern. Posterior drifts to ~55%.
+
+Then, three weeks after that, Jamie does something unprompted. They bring up the dinner thing—not because you asked, but because they'd been thinking about it. $$\text{LR} \approx 8$$. Posterior jumps to ~91%.
+
+_That's_ why the unprompted follow-up three weeks later meant more than both apologies combined. Your brain knew this. Now you know why your brain knew this.
+
 ### Adding Complexity: The Full Model
 
 The article discussed several factors. Let's formalize them.
@@ -529,13 +513,15 @@ This is why process apologies carry more information—the likelihood ratio is m
 
 **Factor 2: Patterns Over Time**
 
-With $$n$$ independent observations $$A_1, A_2, \ldots, A_n$$:
+With $$n$$ observations $$A_1, A_2, \ldots, A_n$$:
 
 $$
 P(U \mid A_1, \ldots, A_n) \propto P(U) \cdot \prod_{i=1}^{n} \frac{P(A_i \mid U)}{P(A_i \mid \neg U)}
 $$
 
-If each shallow apology has $$\text{LR} = 0.8$$ (slight evidence _against_ understanding), then after 10 observations:
+_(Technically these observations aren't independent—Jamie's apologies are correlated because Jamie is, stubbornly, the same person each time. A proper model would account for this autocorrelation. I will not be building a proper model. If you are building one, please see a therapist.)_
+
+Even with the simplification, the intuition holds: if each shallow apology has $$\text{LR} = 0.8$$ (slight evidence _against_ understanding), then after 10 observations:
 
 $$
 \text{Combined LR} = 0.8^{10} \approx 0.11
@@ -602,105 +588,32 @@ The "off" feeling after a hollow apology? That's your posterior probability drop
 
 If we were to map this entire messy algorithm—from the "off" feeling to the final decision—it looks something like this. Note the final diamond; that's the part usually left out of polite advice.
 
-```mermaid
-graph TD
-    A([Apology Received]) --> B{Does it feel resolved?}
-    B -- Yes --> C([Restored])
-    B -- No --> D{Is this a<br/>Pattern?}
-    D -- "No / First Time" --> E["Suspend Judgment<br/>(One data point is noise)"]
-    D -- Yes --> F{Diagnose the Cause}
+<img src="/assets/diagrams/apology-gap-flowchart.svg" alt="Apology gap decision flowchart" style="max-width: 100%; height: auto;" />
 
-    F -->|Different OS| G[Mistranslation]
-    F -->|Capacity| H["They Can't"]
-    F -->|Willingness| I["They Won't"]
-
-    G --> J[Translate Signal]
-    H --> K[Lower Expectation]
-    I --> L[Set Boundary]
-
-    J & K & L --> M{"The Final Calculus:<br/>Is the updated relationship<br/>worth the toll?"}
-
-    M -- Yes --> N["Accept & Adapt"]
-    M -- No --> O["Distance / Exit"]
-
-    style M fill:#f9f,stroke:#333,stroke-width:2px
-```
+(In case it wasn't obvious by now: Jamie isn't one person. Jamie is an ensemble—a composite of people I've navigated this with, in varying degrees of closeness and varying outcomes. Some Jamies drifted into the Accept & Adapt quadrant because the value was undeniable. Others landed in Distance, not because they were bad people, but because the translation costs eventually exceeded what either of us could sustain. I've been on both sides of both errors.)
 
 ---
 
-## The "Toll vs. Value" Calculus
+## The Final Calculus
 
 That pink diamond at the bottom is where the real work happens.
 
-Once you realize Jamie _can't_ apologize deeply (capacity) or is just optimizing for speed (mismatch), you have to update your model. You stop expecting a cat to bark. (Or a goldfish to do your taxes.)
+Once you realize Jamie _can't_ apologize deeply (capacity) or is just optimizing for speed (mismatch), you have to update your model. You stop expecting a cat to bark. (Or a goldfish to do your taxes.) But that leads to a much harder question: **How much do I actually want a cat?**
 
-But that leads to a much harder question:
-
-**How much do I actually want a cat?**
-
-This is the mental health tax calculation.
-
-Every relationship has a "toll"—the energy required to bridge gaps, translate signals, and manage disappointments.
-
-Every relationship also has a "value"—the joy, support, history, and connection provided.
-
-If you update your expectations (lowering the toll of disappointment) but the relationship _still_ costs more energy than it returns, purely because you're exhausted by the translation work... then the update didn't fix the problem.
-
-It just clarified it.
-
-<hr>
-
-#### The Relationship Quadrants
+Every relationship has a toll—the energy required to bridge gaps, translate signals, and manage the emotional overdraft fees from repeated mismatches. Every relationship also has a value. If you update your expectations but the relationship _still_ costs more than it returns, the update didn't fix the problem. It just clarified it.
 
 |                | **Low Toll**                                               | **High Toll**                                                                |
 | :------------- | :--------------------------------------------------------- | :--------------------------------------------------------------------------- |
-| **High Value** | 🌟 **The Sweet Spot** <br> _Easy connection, deep rewards_ | 💔 **The Tragedy Zone** <br> _We love each other, but we exhaust each other_ |
-| **Low Value**  | 🤝 **Functional** <br> _Pleasant acquaintances_            | 🚪 **The Exit Zone** <br> _Why am I working this hard?_                      |
+| **High Value** | 🌟 **Sweet Spot** <br> _Easy connection, deep rewards_ | 💔 **Tragedy Zone** <br> _We love each other, but we exhaust each other_ |
+| **Low Value**  | 🤝 **Functional** <br> _Pleasant acquaintances_            | 🚪 **Exit Zone** <br> _Why am I working this hard?_                      |
 
-<p></p>
+The interesting question isn't which quadrant you're in—it's noticing when you've drifted between them. Sweet Spots can decay into Tragedy Zones so gradually you don't notice until the overdraft fees start exceeding the deposits, while Exit Zones can sometimes be salvaged into Functional relationships with clearer boundaries and lower expectations.
 
-<hr>
-
-The "sophisticated" move isn't just understanding why they apologize poorly. It's deciding if the person, _flaws included_, is "profitable" to your life in the least capitalistic, most emotional sense of the word.
-
-Sometimes the answer is yes. Jamie is hilarious and loyal, so you pay the "shallow apology tax" and move on.
+Sometimes the answer is yes. Jamie is hilarious and loyal and shows up when it counts, so you pay the "shallow apology tax" and move on. (Jamie, if you are reading this: no you are not. You will never read this essay. That's a data point too!)
 
 Sometimes the answer is no. And that's not because they're a villain.
 
 It's just because the rent is too damn high.
-
----
-
-## So What Should an Apology Do?
-
-There isn't a universal script.
-
-That's the part most advice skips.
-
-A reasonable expectation looks more like this:
-
-**An apology should do enough work for the kind of harm and relationship involved.**
-
-Remember the four components from earlier—acknowledge, accept responsibility, express remorse, commit to change? Signal apologies cover the first two. Process apologies require all four, with real weight on the last two.
-
-Signal-based apologies are often sufficient for low-stakes, transactional, or professional contexts. Process-based apologies become necessary as harm, intimacy, repetition, or power imbalance increases.
-
-What matters most isn't eloquence.
-
-It's whether **_behavior over time_** supports the inference the apology asks you to make.
-
-Jamie—if we're still keeping track—might never give you the kind of apology you'd find most reassuring. That's real. The question _isn't_ whether you can demand a different version. It's whether the relationship, pattern included, is one you want to be in.
-
-That's not a question about apologies anymore.
-
-It's a question about what you're willing to infer—and live with.
-
----
-
-> ##### **TL;DR**
->
-> _"What counts" depends on context and patterns—not a single sentence._
-> {: .block-tip }
 
 ---
 
@@ -718,12 +631,42 @@ They're data points offered under uncertainty—risk management in a system wher
 
 The real skill isn't demanding better apologies. It's learning how to interpret them accurately—without self-erasure, and without paranoia. Noticing patterns. Naming the tradeoffs. Asking better questions than "did they mean it."
 
-That doesn't make relationships easier.
-
-It makes them **_legible._**
-
-And legibility, inconvenient as it is, tends to be **cheaper than the alternative.**
+> That doesn't make relationships easier.
+>
+> It makes them **_legible._**
+>
+> And legibility, inconvenient as it is, tends to be **cheaper than the alternative.**
 
 ---
 
-_Closure for one person can be erasure for another. The trick is learning which one you're being offered—and deciding whether it's enough._
+> _The best apology I ever received wasn't words. It was a pattern that changed._
+> _The worst was a pattern that didn't._
+
+## References
+
+The two works most central to this essay:
+
+- <a name="ref3"></a>**[3]** Bowlby, J. (1969). _Attachment and Loss: Volume 1: Attachment_. Basic Books. — The foundation of attachment theory.
+- <a name="ref7"></a>**[7]** Ho, B. (2012). Apologies as signals: With evidence from a trust game. _Management Science_, 58(1), 141–158. <https://doi.org/10.1287/mnsc.1110.1410> — The best formal treatment of apologies as costly signals.
+
+{% details **Full reference list** %}
+
+<a name="ref1"></a>**[1]** Schlenker, B. R., & Pontari, B. A. (2000). Apologies in social predicaments: Effective remediation strategies for wrongdoers and victims. _Journal of Personality and Social Psychology_, 78(4), 534–541. <https://doi.org/10.1037/0022-3514.78.4.534>
+
+<a name="ref2"></a>**[2]** Williams, M. R. (2001). Sincere apologies as markers of repair in conflict situations. _Journal for the Theory of Social Behaviour_, 31(4), 355–375. <https://doi.org/10.1111/1468-5914.00165>
+
+<a name="ref4"></a>**[4]** Fraley, R. C., & Shaver, P. R. (2000). Adult romantic attachment: Theoretical developments, emerging controversies, and unanswered questions. _Review of General Psychology_, 4(2), 132–154. <https://doi.org/10.1037/1089-2680.4.2.132>
+
+<a name="ref5"></a>**[5]** Mikulincer, M., & Shaver, P. R. (2007). _Attachment in Adulthood: Structure, Dynamics, and Change_. Guilford Press.
+
+<a name="ref6"></a>**[6]** Hareli, S., & Hess, U. (2011). The role of anger and guilt as emotion regulation strategies in social appraisal and resolution of social conflict. _Motivation and Emotion_, 35(1), 72–82. <https://doi.org/10.1007/s11031-011-9202-4>
+
+<a name="ref8"></a>**[8]** Rose, S. M. (2000). Power and influence tactics in close relationships. _Journal of Family Issues_, 21(5), 626–650. <https://doi.org/10.1177/019251300021005005>
+
+<a name="ref9"></a>**[9]** Tavuchis, N. (1991). _Mea Culpa: A Sociology of Apology and Reconciliation_. Stanford University Press.
+
+<a name="ref10"></a>**[10]** Schumann, K. (2019). Apologies as signals for change? Implicit theories of personality and reactions to apologies during the #MeToo movement. _PLOS ONE_, 14(12): e0226405. <https://doi.org/10.1371/journal.pone.0226405>
+
+<a name="ref11"></a>**[11]** Equal Justice USA. What is an Authentic Apology? <https://ejusa.org/resource/what-is-an-authentic-apology/>
+
+{% enddetails %}
