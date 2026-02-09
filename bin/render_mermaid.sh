@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Renders all .mmd (Mermaid) files in assets/diagrams/ to PNG.
+# Renders all .mmd (Mermaid) files in assets/diagrams/ to SVG.
 # Requires: npm install -g @mermaid-js/mermaid-cli
 #
 # Usage: ./bin/render_mermaid.sh
@@ -17,14 +17,14 @@ if ! command -v mmdc &>/dev/null; then
   exit 1
 fi
 
-# Render each .mmd file to PNG
+# Render each .mmd file to SVG
 found=0
 for mmd_file in "$DIAGRAMS_DIR"/*.mmd; do
   [ -f "$mmd_file" ] || continue
   found=1
-  png_file="${mmd_file%.mmd}.png"
-  echo "Rendering: $(basename "$mmd_file") -> $(basename "$png_file")"
-  mmdc -i "$mmd_file" -o "$png_file" -b white -s 3
+  svg_file="${mmd_file%.mmd}.svg"
+  echo "Rendering: $(basename "$mmd_file") -> $(basename "$svg_file")"
+  mmdc -i "$mmd_file" -o "$svg_file" -b transparent -s 3
 done
 
 if [ "$found" -eq 0 ]; then
@@ -33,3 +33,4 @@ if [ "$found" -eq 0 ]; then
 fi
 
 echo "Done."
+
